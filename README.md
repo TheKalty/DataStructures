@@ -1,5 +1,6 @@
 # DataStructures
 Implementations of DS in C++ and C
+Outline of https://www.geeksforgeeks.org/data-structures/
 
 List of DS to Complete(Positional)
 - Linked List
