@@ -26,8 +26,9 @@ int main(){
 	printAll(a);
 	std::cout << std::endl;
 
-	// Check 
-
+	// Check swap();
+	a.swap(3, 2);
+	printAll(a);
 
 
 

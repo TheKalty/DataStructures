@@ -25,6 +25,7 @@ public:
     T at(int i); // Same as get
     int size();
 	int memorySize();
+	void swap(int a, int b); // Swaps values at position a and b
 };
 
 template <typename T>
@@ -83,4 +84,10 @@ int Array<T>::memorySize(){
 	return sizeof(T) * this->SIZE;
 };
 
+template <typename T>
+void Array<T>::swap(int a, int b){
+	T temp = this->array[a];
+	this->array[a] = this->array[b];
+	this->array[b] = temp;
+}
 #endif
